@@ -7,7 +7,7 @@ import App from './components/app';
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
-const API_KEY = 'AIzaSyATaOU7T1EOZz97_ETFAjmF8R0LZkX1sXI';
+const API_KEY = 'AIzaSyATaOU7T1EOZz97_ETFAjmF8R0LZkX1sXI'; 
 
 //Render component's generated HTML
 ReactDOM.render(
